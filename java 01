@@ -1,0 +1,7 @@
+public class PrecioConIVA {
+    public static double calcularPrecioConIVA(double precioSinIVA) {
+        double iva = 0.21;
+        double precioConIVA = precioSinIVA * (1 + iva);
+        return precioConIVA;
+    }
+}

@@ -1,0 +1,8 @@
+public class Main {
+    public static void main(String[] args) {
+        double precioSinIVA = 100.0;
+        double precioConIVA = PrecioConIVA.calcularPrecioConIVA(precioSinIVA);
+        System.out.println("Precio sin IVA: " + precioSinIVA);
+        System.out.println("Precio con IVA: " + precioConIVA);
+    }
+}
